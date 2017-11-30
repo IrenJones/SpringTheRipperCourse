@@ -10,7 +10,7 @@ public class Main {
             context.getBean(TerminatorQuoter.class).sayQuote();
         }
         */
-        //context.getBean(Quoter.class).sayQuote();
+        context.getBean(Quoter.class).sayQuote();
 
     }
 }
