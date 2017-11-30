@@ -11,4 +11,6 @@
         <property name="message" value="I'll be back" />
     </bean>
 
+    <bean class = "quoters.InjectRandomIntAnnotationBeanPostProcessor"/>
+
 </beans>
