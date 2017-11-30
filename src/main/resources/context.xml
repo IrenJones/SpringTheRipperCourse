@@ -7,12 +7,12 @@
 
     <context:annotation-config />
 
+    <bean class = "quoters.ProfilingHandlerBeanPostProcessor"/>
+    <bean class = "quoters.InjectRandomIntAnnotationBeanPostProcessor"/>
+
     <bean id="terminatorQuoter" class="quoters.TerminatorQuoter">
         <property name="message" value="I'll be back" />
     </bean>
 
-    <bean class = "quoters.InjectRandomIntAnnotationBeanPostProcessor"/>
-
-    <bean class = "org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>
 
 </beans>
